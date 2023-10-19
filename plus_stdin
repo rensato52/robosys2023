@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Ren Sato miseria.ren@gmail.com
 import sys
 
 ans = 0
