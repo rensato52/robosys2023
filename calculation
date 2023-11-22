@@ -3,10 +3,12 @@
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
 
+def
+
 ans1 = 0
 ans2 = 0
-ans3 = 0
-ans4 = 0
+ans3 = 1
+ans4 = 1
 
 for line in sys.stdin:
     try:
@@ -15,7 +17,7 @@ for line in sys.stdin:
         ans3 *= int(line)
         ans4 /= int(line)
     except:
-        ans1 += float(line)
+        ans1 += tonum(line)
         ans2 -= float(line)
         ans3 *= float(line)
         ans4 /= float(line)
