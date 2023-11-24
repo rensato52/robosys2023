@@ -10,8 +10,10 @@ def tonum(s):
         return float(s)
 
 ans1 = 0
+ans2 = 0
 
 for line in sys.stdin:
     ans1 += tonum(line)
+    ans2 -= tonum(line)
 
-print(ans1)
+print(和:ans1 差:ans2)
