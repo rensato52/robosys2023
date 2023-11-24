@@ -3,9 +3,11 @@
 # SPDX-LIcense-Identifier: BSD-3-Clause
 
 ng () {
+<<<<<<< HEAD
         echo NG at Line $1
         res=1
 }
+
 
 res=0
 out=$(seq 5 | ./calculation)
@@ -16,10 +18,10 @@ out=$(echo あ | ./calculation)
 [ "${out}" = "" ] || ng ${LINENO}
 
 out=$(echo  | ./calculation)
+>>>>>>> dev
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
 
 [ "$res" = 0 ] && echo OK
 exit $res
-
