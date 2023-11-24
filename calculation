@@ -13,12 +13,16 @@ ans1 = 0
 ans2 = 0
 ans3 = 1
 ans4 = 1
+i = 0
 
 for line in sys.stdin:
     ans1 += tonum(line)
     ans2 -= tonum(line)
     ans3 *= tonum(line)
     ans4 /= tonum(line)
+    i += 1
 
-print(f'和:{ans1}, 差:{ans2}, 積:{ans3}, 商:{ans4}')
+    ave = ans1 / i
+
+print(f'和:{ans1}, 差:{ans2}, 積:{ans3}, 商:{ans4}, 平均値:{ave}')
 
