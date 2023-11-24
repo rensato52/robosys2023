@@ -17,7 +17,6 @@ out=$(echo あ | ./calculation)
 [ "${out}" = "" ] || ng ${LINENO}
 
 out=$(echo  | ./calculation)
->>>>>>> dev
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
