@@ -1,8 +1,8 @@
 # robosys2023
 [![test](https://github.com/rensato52/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/rensato52/robosys2023/actions/workflows/test.yml)
 
-標準入力から読み込んだ数字の四則演算と平均値を求める計算を行う．
-0に読み込んだ数字をすべて足した数，引いた数，１に読み込んだ数字をすべてかけた数，割った数を表示する．
+* 標準入力から読み込んだ数字の四則演算と平均値を求める計算を行う．
+* 0に読み込んだ数字をすべて足した数，引いた数，１に読み込んだ数字をすべてかけた数，割った数を表示する．
 
 ##インストール方法
 * 以下のコマンドを実行
