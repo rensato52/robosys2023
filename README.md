@@ -17,6 +17,11 @@ $ git clone https://github.com/rensato52/robosys2023.git
 $ seq 10 | ./calculation
 ```
 
+##実行結果
+```bash
+和:55, 差:-55, 積:3628800, 商:2.7557319223985894e-07, 平均値:5.5
+```
+
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7~3.10
