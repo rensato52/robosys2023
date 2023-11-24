@@ -3,9 +3,8 @@
 # SPDX-LIcense-Identifier: BSD-3-Clause
 
 ng () {
-<<<<<<< HEAD
-	echo NG at Line $1
-	res=1
+        echo NG at Line $1
+        res=1
 }
 
 
@@ -25,4 +24,3 @@ out=$(echo  | ./calculation)
 
 [ "$res" = 0 ] && echo OK
 exit $res
-
