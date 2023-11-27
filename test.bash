@@ -10,7 +10,7 @@ ng () {
 
 res=0
 out=$(seq 5 | ./calculation)
-[ "${out}" = "和:15, 差:-15, 積:120, 商:0.008333333333333333, 平均値:3.0" ] || ng ${LINENO}
+[ "${out}" = "15 -15 120 0.008333333333333333 3.0" ] || ng ${LINENO}
 
 out=$(echo あ | ./calculation)
 [ "$?" = 1 ]      || ng ${LINENO}
