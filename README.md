@@ -8,6 +8,7 @@
 * 以下のコマンドを実行
 ```bash
 $ git clone https://github.com/rensato52/robosys2023.git
+$ cd robosys2023
 ```
 
 
