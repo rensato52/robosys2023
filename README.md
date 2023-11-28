@@ -12,14 +12,10 @@ $ cd robosys2023
 ```
 
 
-## 使い方
+## 実行例
 
 ```bash
-$ seq 10 | ./calculation
-```
-
-## 実行結果
-```bash
+$ seq 10 | ./plus
 55 -55 3628800 2.7557319223985894e-07 5.5
 ```
 
@@ -32,6 +28,6 @@ $ seq 10 | ./calculation
 
 ## 著作権・ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-* このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+* このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作とし、コードの一部を改変したものです．
 	*  [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * © 2023 Ren Sato
