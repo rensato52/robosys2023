@@ -24,4 +24,4 @@ for line in sys.stdin:
 
     ave = ans1 / i
 
-print(ans1,ans2,ans3,f'{ans4:.10f}',ave)
+print(ans1,ans2,ans3,ans4,ave)
