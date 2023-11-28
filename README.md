@@ -29,5 +29,5 @@ $ seq 10 | ./plus
 ## 著作権・ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作とし、コードの一部を改変したものです．
-	*  [ryuichiueda/my_slides robosys_2022/lesson4](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson4.html#/)
+	*  [ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * © 2023 Ren Sato
